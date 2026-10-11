@@ -1,0 +1,27 @@
+# Données personnelles : jamais dans Git
+config/profil.md
+config/liens.md
+pistes.md
+lettres/
+candidatures/
+exports/
+*.pdf
+*.docx
+cv*
+CV*
+
+# Exports du tableau réel (seul le modèle vide est versionné)
+*.xlsx
+!config/modele-tableau.xlsx
+
+# Claude Code en local
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Système
+.DS_Store
